@@ -74,11 +74,10 @@ Denote $\kappa$ as the curvature of a node and $\delta$ as the steer wheel angle
   $0< \delta < \delta_{max}$
 
 We use the following ODEs for Clothoid exploring
-$$
-\begin{cases}
+
+$$\begin{cases}
 d \kappa = A ds \\
 d \theta = \kappa (s) ds \\
 dx = \cos \left(\theta(s)\right)ds \\
-dy = \sin \left(\theta(s)\right)ds.
-\end{cases}
-$$
+dy = \sin \left(\theta(s)\right)ds
+\end{cases}$$
